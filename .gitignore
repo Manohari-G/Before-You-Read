@@ -1,0 +1,36 @@
+# Protect secrets
+
+.env
+**/.env
+.env.*
+**/.env.*
+!.env.example
+!**/.env.example
+
+# Python
+
+**pycache**/
+*.py[cod]
+.venv/
+venv/
+backend/.venv/
+backend/venv/
+
+# Generated vector database
+
+chroma_db/
+**/chroma_db/
+before-you-read-chroma/
+
+# Frontend dependencies and build output
+
+node_modules/
+**/node_modules/
+dist/
+**/dist/
+
+# Editor and operating system
+
+.vscode/
+.DS_Store
+Thumbs.db
